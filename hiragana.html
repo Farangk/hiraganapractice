@@ -30,78 +30,97 @@
         </div>
 
         <section class="kana-grid">
-            <div class="kana-cell">あ</div>
-            <div class="kana-cell">い</div>
-            <div class="kana-cell">う</div>
-            <div class="kana-cell">え</div>
-            <div class="kana-cell">お</div>
+            <div class="kana-kard" onclick="abrirModal('a')">あ</div>
+            <div class="kana-kard" onclick="abrirModal('i')">い</div>
+            <div class="kana-kard" onclick="abrirModal('u')">う</div>
+            <div class="kana-kard" onclick="abrirModal('e')">え</div>
+            <div class="kana-kard" onclick="abrirModal('o')">お</div>
         
-            <div class="kana-cell">か</div>
-            <div class="kana-cell">き</div>
-            <div class="kana-cell">く</div>
-            <div class="kana-cell">け</div>
-            <div class="kana-cell">こ</div>
+            <div class="kana-kard">か</div>
+            <div class="kana-kard">き</div>
+            <div class="kana-kard">く</div>
+            <div class="kana-kard">け</div>
+            <div class="kana-kard">こ</div>
 
-            <div class="kana-cell">さ</div>
-            <div class="kana-cell">し</div>
-            <div class="kana-cell">す</div>
-            <div class="kana-cell">せ</div>
-            <div class="kana-cell">そ</div>
+            <div class="kana-kard">さ</div>
+            <div class="kana-kard">し</div>
+            <div class="kana-kard">す</div>
+            <div class="kana-kard">せ</div>
+            <div class="kana-kard">そ</div>
 
-            <div class="kana-cell">た</div>
-            <div class="kana-cell">ち</div>
-            <div class="kana-cell">つ</div>
-            <div class="kana-cell">て</div>
-            <div class="kana-cell">と</div>
+            <div class="kana-kard">た</div>
+            <div class="kana-kard">ち</div>
+            <div class="kana-kard">つ</div>
+            <div class="kana-kard">て</div>
+            <div class="kana-kard">と</div>
 
-            <div class="kana-cell">な</div>
-            <div class="kana-cell">に</div>
-            <div class="kana-cell">ぬ</div>
-            <div class="kana-cell">ね</div>
-            <div class="kana-cell">の</div>
+            <div class="kana-kard">な</div>
+            <div class="kana-kard">に</div>
+            <div class="kana-kard">ぬ</div>
+            <div class="kana-kard">ね</div>
+            <div class="kana-kard">の</div>
 
-            <div class="kana-cell">は</div>
-            <div class="kana-cell">ひ</div>
-            <div class="kana-cell">ふ</div>
-            <div class="kana-cell">へ</div>
-            <div class="kana-cell">ほ</div>
+            <div class="kana-kard">は</div>
+            <div class="kana-kard">ひ</div>
+            <div class="kana-kard">ふ</div>
+            <div class="kana-kard">へ</div>
+            <div class="kana-kard">ほ</div>
 
-            <div class="kana-cell">ま</div>
-            <div class="kana-cell">み</div>
-            <div class="kana-cell">む</div>
-            <div class="kana-cell">め</div>
-            <div class="kana-cell">も</div>
+            <div class="kana-kard">ま</div>
+            <div class="kana-kard">み</div>
+            <div class="kana-kard">む</div>
+            <div class="kana-kard">め</div>
+            <div class="kana-kard">も</div>
             
-            <div class="kana-cell">や</div>
-            <div class="kana-cell"></div>
-            <div class="kana-cell">ゆ</div>
-            <div class="kana-cell"></div>
-            <div class="kana-cell">よ</div>
+            <div class="kana-kard">や</div>
+            <div class="kana-kard"></div>
+            <div class="kana-kard">ゆ</div>
+            <div class="kana-kard"></div>
+            <div class="kana-kard">よ</div>
 
-            <div class="kana-cell">ら</div>
-            <div class="kana-cell">り</div>
-            <div class="kana-cell">る</div>
-            <div class="kana-cell">れ</div>
-            <div class="kana-cell">ろ</div>
+            <div class="kana-kard">ら</div>
+            <div class="kana-kard">り</div>
+            <div class="kana-kard">る</div>
+            <div class="kana-kard">れ</div>
+            <div class="kana-kard">ろ</div>
 
-            <div class="kana-cell">わ</div>
-            <div class="kana-cell"></div>
-            <div class="kana-cell"></div>
-            <div class="kana-cell"></div>
-            <div class="kana-cell">を</div>
+            <div class="kana-kard">わ</div>
+            <div class="kana-kard"></div>
+            <div class="kana-kard"></div>
+            <div class="kana-kard"></div>
+            <div class="kana-kard">を</div>
 
-            <div class="kana-cell">ん</div>
-            <div class="kana-cell"></div>
-            <div class="kana-cell"></div>
-            <div class="kana-cell"></div>
-            <div class="kana-cell"></div>
+            <div class="kana-kard">ん</div>
+            <div class="kana-kard"></div>
+            <div class="kana-kard"></div>
+            <div class="kana-kard"></div>
+            <div class="kana-kard"></div>
 
        </section>
         
        <!--MODALES PARA KANACARD
        -->
 <!--modal de A-->
-
+       <div id="modal-a" class="modal">
+        <div class="modal-content">
+            <span class="cerrar" onclick="cerrarModal('a')">&times;</span>
+            <h2>あ (A)</h2>
+            <p><strong>Romaji:</strong> a</p>
+            <p><strong>Fonética:</strong> suena como "a" en español</p>
+            <img src="img/hiraganas/A.gif" alt="Trazos del kana あ" class="imagen-trazo">
+        </div>
+    </div>
+<!--modal de i-->
+<div id="modal-i" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('i')">&times;</span>
+        <h2>い (I)</h2>
+        <p><strong>Romaji:</strong> i</p>
+        <p><strong>Fonética:</strong> suena como "i" en español</p>
+        <img src="img/hiraganas/I.gif" alt="Trazos del kana い" class="imagen-trazo">
+    </div>
+</div>
+       
        
     </main>
 
