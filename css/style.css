@@ -21,7 +21,7 @@ main{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/background.jpg");
     background-size: cover;
     background-position: center;
-    padding-top: 10px;
+    padding: 1rem 0;
 }
 
 
@@ -187,4 +187,5 @@ footer {
         transform: translateY(0);
     }
 }
+
 
