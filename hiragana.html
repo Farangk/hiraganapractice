@@ -36,35 +36,35 @@
             <div class="kana-kard" onclick="abrirModal('e')">え</div>
             <div class="kana-kard" onclick="abrirModal('o')">お</div>
         
-            <div class="kana-kard">か</div>
-            <div class="kana-kard">き</div>
-            <div class="kana-kard">く</div>
-            <div class="kana-kard">け</div>
-            <div class="kana-kard">こ</div>
+            <div class="kana-kard" onclick="abrirModal('ka')">か</div>
+            <div class="kana-kard" onclick="abrirModal('ki')">き</div>
+            <div class="kana-kard" onclick="abrirModal('ku')">く</div>
+            <div class="kana-kard" onclick="abrirModal('ke')">け</div>
+            <div class="kana-kard" onclick="abrirModal('ko')">こ</div>
 
-            <div class="kana-kard">さ</div>
-            <div class="kana-kard">し</div>
-            <div class="kana-kard">す</div>
-            <div class="kana-kard">せ</div>
-            <div class="kana-kard">そ</div>
+            <div class="kana-kard" onclick="abrirModal('sa')">さ</div>
+            <div class="kana-kard" onclick="abrirModal('shi')">し</div>
+            <div class="kana-kard" onclick="abrirModal('su')">す</div>
+            <div class="kana-kard" onclick="abrirModal('se')">せ</div>
+            <div class="kana-kard" onclick="abrirModal('so')">そ</div>
 
-            <div class="kana-kard">た</div>
-            <div class="kana-kard">ち</div>
-            <div class="kana-kard">つ</div>
-            <div class="kana-kard">て</div>
-            <div class="kana-kard">と</div>
+            <div class="kana-kard" onclick="abrirModal('ta')">た</div>
+            <div class="kana-kard" onclick="abrirModal('chi')">ち</div>
+            <div class="kana-kard" onclick="abrirModal('tsu')">つ</div>
+            <div class="kana-kard" onclick="abrirModal('te')">て</div>
+            <div class="kana-kard" onclick="abrirModal('to')">と</div>
 
-            <div class="kana-kard">な</div>
-            <div class="kana-kard">に</div>
-            <div class="kana-kard">ぬ</div>
-            <div class="kana-kard">ね</div>
-            <div class="kana-kard">の</div>
+            <div class="kana-kard" onclick="abrirModal('na')">な</div>
+            <div class="kana-kard" onclick="abrirModal('ni')">に</div>
+            <div class="kana-kard" onclick="abrirModal('nu')">ぬ</div>
+            <div class="kana-kard" onclick="abrirModal('ne')">ね</div>
+            <div class="kana-kard" onclick="abrirModal('no')">の</div>
 
-            <div class="kana-kard">は</div>
-            <div class="kana-kard">ひ</div>
-            <div class="kana-kard">ふ</div>
-            <div class="kana-kard">へ</div>
-            <div class="kana-kard">ほ</div>
+            <div class="kana-kard" onclick="abrirModal('ha')">は</div>
+            <div class="kana-kard" onclick="abrirModal('hi')">ひ</div>
+            <div class="kana-kard" onclick="abrirModal('hu')">ふ</div>
+            <div class="kana-kard" onclick="abrirModal('he')">へ</div>
+            <div class="kana-kard" onclick="abrirModal('ho')">ほ</div>
 
             <div class="kana-kard">ま</div>
             <div class="kana-kard">み</div>
@@ -110,6 +110,7 @@
             <img src="img/hiraganas/A.gif" alt="Trazos del kana あ" class="imagen-trazo">
         </div>
     </div>
+    </div>
 <!--modal de i-->
 <div id="modal-i" class="modal">
     <div class="modal-content">
@@ -120,7 +121,128 @@
         <img src="img/hiraganas/I.gif" alt="Trazos del kana い" class="imagen-trazo">
     </div>
 </div>
+
+<!--modal de u-->
+<div id="modal-u" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('u')">&times;</span>
+        <h2>う (U)</h2>
+        <p><strong>Romaji:</strong> U</p>
+        <p><strong>Fonética:</strong> suena como "U" en español</p>
+        <img src="img/hiraganas/U.gif" alt="Trazos del kana う" class="imagen-trazo">
+    </div>
+</div>
+
+
+<!--modal de e-->
+<div id="modal-e" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('e')">&times;</span>
+        <h2> (E)</h2>
+        <p><strong>Romaji:</strong> E</p>
+        <p><strong>Fonética:</strong> suena como "E" en español</p>
+        <img src="img/hiraganas/E.gif" alt="Trazos del kana え" class="imagen-trazo">
+    </div>
+</div>
        
+<!--modal de o-->
+<div id="modal-o" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('o')">&times;</span>
+        <h2> (O)</h2>
+        <p><strong>Romaji:</strong> O</p>
+        <p><strong>Fonética:</strong> suena como "o" en español</p>
+        <img src="img/hiraganas/O.gif" alt="Trazos del kana お" class="imagen-trazo">
+    </div>
+</div>
+
+<!--modal de ka-->
+<div id="modal-ka" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('ka')">&times;</span>
+        <h2> (KA)</h2>
+        <p><strong>Romaji:</strong> KA</p>
+        <p><strong>Fonética:</strong> suena como "ka" en español</p>
+        <img src="img/hiraganas/KA.gif" alt="Trazos del kana お" class="imagen-trazo">
+    </div>
+</div>
+
+<!--modal de ki-->
+<div id="modal-ki" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('ki')">&times;</span>
+        <h2> (KI)</h2>
+        <p><strong>Romaji:</strong> KI</p>
+        <p><strong>Fonética:</strong> suena como "ki" en español</p>
+        <img src="img/hiraganas/KI.gif" alt="Trazos del kana お" class="imagen-trazo">
+    </div>
+</div>
+
+<!--modal de ku-->
+<div id="modal-ku" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('ku')">&times;</span>
+        <h2> (KU)</h2>
+        <p><strong>Romaji:</strong> KU</p>
+        <p><strong>Fonética:</strong> suena como "ku" en español</p>
+        <img src="img/hiraganas/KU.gif" alt="Trazos del kana お" class="imagen-trazo">
+    </div>
+</div>
+
+<!--modal de ke-->
+<div id="modal-ke" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('ke')">&times;</span>
+        <h2> (KE)</h2>
+        <p><strong>Romaji:</strong> KE</p>
+        <p><strong>Fonética:</strong> suena como "ke" en español</p>
+        <img src="img/hiraganas/KE.gif" alt="Trazos del kana お" class="imagen-trazo">
+    </div>
+</div>
+
+<!--modal de ko-->
+<div id="modal-ko" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('ko')">&times;</span>
+        <h2> (KO)</h2>
+        <p><strong>Romaji:</strong> KO</p>
+        <p><strong>Fonética:</strong> suena como "ko" en español</p>
+        <img src="img/hiraganas/KO.gif" alt="Trazos del kana お" class="imagen-trazo">
+    </div>
+</div>
+
+<!--modal de sa-->
+<div id="modal-sa" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('sa')">&times;</span>
+        <h2> (SA)</h2>
+        <p><strong>Romaji:</strong> SA</p>
+        <p><strong>Fonética:</strong> suena como "sa" en español</p>
+        <img src="img/hiraganas/sa.gif" alt="Trazos del kana お" class="imagen-trazo">
+    </div>
+</div>
+
+<!--modal de shi-->
+<div id="modal-shi" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('ko')">&times;</span>
+        <h2> (SHI)</h2>
+        <p><strong>Romaji:</strong> SHI</p>
+        <p><strong>Fonética:</strong> suena como "shi" en español</p>
+        <img src="img/hiraganas/shi.gif" alt="Trazos del kana お" class="imagen-trazo">
+    </div>
+</div>
+
+<!--modal de su-->
+<div id="modal-su" class="modal">
+    <div class="modal-content">
+        <span class="cerrar" onclick="cerrarModal('su')">&times;</span>
+        <h2> (SU)</h2>
+        <p><strong>Romaji:</strong> SU</p>
+        <p><strong>Fonética:</strong> suena como "su" en español</p>
+        <img src="img/hiraganas/su.gif" alt="Trazos del kana お" class="imagen-trazo">
+    </div>
+</div>
        
     </main>
 
